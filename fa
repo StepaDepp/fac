@@ -1,0 +1,7 @@
+c = 0
+b=int(input("Количество цифр : "))
+for i in range(b):
+    a=int(input("Перечисли их : "))
+    if a==0:
+        c=c+1
+print("Колличество нулей : " + str(c))
